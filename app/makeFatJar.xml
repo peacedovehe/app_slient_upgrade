@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project
+    name="hosa"
+    basedir="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs"
+    default="makeSuperJar" >               <!--//不用改 -->
+
+    <target
+        name="makeSuperJar"
+        description="description" >
+
+        <jar destfile="app-upgrade-monitor-1.0.jar" >                  <!--//合并后的jar文件的名称 -->
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/adapter-rxjava-2.0.1.jar" />           <!--// <zipfileset >标签的都是要参与合并的子jar包 -->
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/aria-annotations-3.4.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/aria-core-3.4.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/aria-ftp-plug-1.0.3.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/converter-gson-2.0.1.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/gson-2.6.1.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/javaxdelta-2.0.1.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/kdxc_upgrade_monitor.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/okhttp-3.2.0.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/okio-1.6.0.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/retrofit-2.0.1.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/rxandroid-1.2.0.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/rxjava-1.1.5.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/trove-1.0.2.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/support-compat-26.0.0-alpha1.jar" />
+            <zipfileset src="/Users/phe/work/kdx/source_code/android/TestUpgradeSDK/app/libs/support-fragment-26.0.0-alpha1.jar" />
+         </jar>
+    </target>
+
+</project>
